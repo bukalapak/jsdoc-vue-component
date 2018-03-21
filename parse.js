@@ -251,6 +251,9 @@ function parseCode(code) {
     });
   }
   catch (error) {
+    console.log('========= WARNING ===========')
+    console.warn(error)
+    console.log('=============================')
     return parsed
   }
 
